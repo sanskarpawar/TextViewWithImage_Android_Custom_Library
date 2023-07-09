@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(ActivityMainBinding.inflate(layoutInflater).apply {
             binding = this }.root)
 
-        binding.itvSampleText.insertImageBeforeWord(R.drawable.ic_heart, "this")
+        binding.itvSampleText.insertImageBeforeWord(R.drawable.ic_android_logo, "this")
 
     }
 
